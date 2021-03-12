@@ -1,0 +1,257 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+@import "~animate.css/animate.css";
+
+* {
+  font-family: "Lexend Mega", sans-serif;
+}
+@media (max-width: 767px) {
+  .headercmp {
+    height: 1000px !important;
+  }
+  li {
+    padding: 5px;
+    margin-left: 55px;
+  }
+
+  .fa-r h2{
+    margin-top: 1rem!important;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .bg2{
+        
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,transparent 20%,orange 0%,
+    orange 25%,   transparent 10%) !important;
+
+
+}
+a:hover{
+  border-right: solid;
+  border-color: orange;
+}
+
+.cvi{
+  margin-bottom: 40px !important;
+}
+
+.t-f{
+  font-size: 12px !important;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  li {
+    padding: 5px;
+    margin-left: 230px;
+  }
+  
+
+
+}
+
+@media (min-width: 727px) and (max-width: 817px) {
+  li {
+    padding: 5px;
+    margin-left: 150px;
+  }
+ 
+
+}
+
+@media (min-width: 1024px) and (max-width: 2000px) {
+
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 2900px) {
+
+
+   
+  .desc-me{
+    margin-top: 75px;
+  }
+	
+}
+
+
+@media (min-width: 3000px) and (max-width: 40000px) {
+
+
+
+  .desc-me{
+    margin-top: 75px;
+  }
+	
+*{font-size: 25px;}
+
+a{font-size: 25px !important}
+
+.my-photo{
+  margin-top: 100px !important;
+  }
+  .img-nav{
+    height: 100px;
+  }
+}
+
+/**Loading**/
+
+*,*:after,*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  #contenedor_carga{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100% ;
+    width: 100% ;
+    position: fixed ;
+    transition: all 1s ease;
+    z-index: 10000 ;
+  }
+
+  @keyframes ldio-5osn3kdmfrp-1 {
+	  0% {
+		transform: rotate(0deg)
+	  }
+  
+	  50% {
+		transform: rotate(-45deg)
+	  }
+  
+	  100% {
+		transform: rotate(0deg)
+	  }
+	}
+  
+	@keyframes ldio-5osn3kdmfrp-2 {
+	  0% {
+		transform: rotate(180deg)
+	  }
+  
+	  50% {
+		transform: rotate(225deg)
+	  }
+  
+	  100% {
+		transform: rotate(180deg)
+	  }
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(2) {
+	  transform: translate(-15px, 0);
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(2) div {
+	  position: absolute;
+	  top: 40px;
+	  left: 40px;
+	  width: 120px;
+	  height: 60px;
+	  border-radius: 120px 120px 0 0;
+	  background: #f8b26a;
+	  animation: ldio-5osn3kdmfrp-1 1s linear infinite;
+	  transform-origin: 60px 60px
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(2) div:nth-child(2) {
+	  animation: ldio-5osn3kdmfrp-2 1s linear infinite
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(2) div:nth-child(3) {
+	  transform: rotate(-90deg);
+	  animation: none;
+	}
+  
+	@keyframes ldio-5osn3kdmfrp-3 {
+	  0% {
+		transform: translate(190px, 0);
+		opacity: 0
+	  }
+  
+	  20% {
+		opacity: 1
+	  }
+  
+	  100% {
+		transform: translate(70px, 0);
+		opacity: 1
+	  }
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(1) {
+	  display: block;
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(1) div {
+	  position: absolute;
+	  top: 92px;
+	  left: -8px;
+	  width: 16px;
+	  height: 16px;
+	  border-radius: 50%;
+	  background: #e15b64;
+	  animation: ldio-5osn3kdmfrp-3 1s linear infinite
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(1) div:nth-child(1) {
+	  animation-delay: -0.67s
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(1) div:nth-child(2) {
+	  animation-delay: -0.33s
+	}
+  
+	.ldio-5osn3kdmfrp>div:nth-child(1) div:nth-child(3) {
+	  animation-delay: 0s
+	}
+  
+	.loadingio-spinner-bean-eater-iwagvph8oob {
+	  width: 200px;
+	  height: 200px;
+	  display: inline-block;
+	  overflow: hidden;
+
+	}
+  
+	.ldio-5osn3kdmfrp {
+	  width: 100%;
+	  height: 100%;
+	  position: relative;
+	  transform: translateZ(0) scale(1);
+	  backface-visibility: hidden;
+	  transform-origin: 0 0;
+	  /* see note above */
+	}
+  
+	.ldio-5osn3kdmfrp div {
+	  box-sizing: content-box;
+	}
+  
+   #carga{
+ 
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+ 
+  }
+   
+  .ctn{
+  
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1093%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M71.53000987698091 427.3435581264194L-0.6023386352297901 574.8797623360512 142.75981442165372 567.3664702611043z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1214.5379572233583 163.30652340502527L1163.0189922447864 216.65597337545123 1268.8026496897112 267.25969585809617z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1425.8331346721511 541.7976566636538L1318.7819057022168 448.5601784200436 1292.9806751919773 569.9454243401108z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1092.4510703261174 109.88545285877288L1205.0149502426775 169.736729474818 1152.3023469421626-2.6784270577873457z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M442.5534320527182 351.3713900250349L470.0760617485868 209.77973489309014 300.96177692077345 323.8487603291663z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M900.0817284972812 38.643858886577654L835.3120672647574 155.49142084280277 1016.9292904535064 103.41352011910146z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M740.7511853976374 233.3985945941727L802.6478374290958 145.00101437143508 652.3536051748998 171.5019425627143z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M322.79392330087904 174.06454375512973L361.5254049891465 39.47604284791572 242.23686489993548 67.01597232032105z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M433.89244306238726 339.83959452896755L297.8472695053065 356.54384142713315 450.59668996055285 475.8847680860483z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1145.633264645645 487.5055087561713L1125.9873645413197 646.2576098986005 1255.638173005767 593.875283078233z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1284.5405638587088 182.22092174625067L1222.1645473393455 42.12209483410402 1144.441736946562 244.59693826561394z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M840.8163929194795 225.34146914923596L879.3840057569367 175.97717582427026 786.0537593507596 142.8079032305674z' fill='rgba(253%2c 126%2c 20%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1093'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+      
+   }
